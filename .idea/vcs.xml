@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/akka-events" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/akka-spring-boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oxd-java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oxd-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restful-pdp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-ignite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-ignite/alliance" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,186 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server",
+      "type": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.compression",
+      "sourceMethod": "getCompression()",
+      "type": "org.springframework.boot.web.server.Compression"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.error",
+      "sourceMethod": "getError()",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.http2",
+      "sourceMethod": "getHttp2()",
+      "type": "org.springframework.boot.web.server.Http2"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.ssl",
+      "sourceMethod": "getSsl()",
+      "type": "org.springframework.boot.web.server.Ssl"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.address",
+      "type": "java.net.InetAddress"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.excluded-user-agents",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.mime-types",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.min-response-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.connection-timeout",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.display-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.include-exception",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.include-stacktrace",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties$IncludeStacktrace"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Http2",
+      "name": "server.http2.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.max-http-header-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.server-header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.ciphers",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.client-auth",
+      "type": "org.springframework.boot.web.server.Ssl$ClientAuth"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.enabled-protocols",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-alias",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-provider",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.protocol",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-provider",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.experts.core.biller.statemachine.api.SpringConfigMvc$IgnoreUnknownFieldsServerProperties",
+      "name": "server.use-forward-headers",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

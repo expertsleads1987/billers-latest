@@ -1,0 +1,94 @@
+= Cheatsheets
+
+[[CompletedState]]
+== CompletedState
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[billCode]]`billCode`|`String`|-
+|[[billNo]]`billNo`|`String`|-
+|[[billerCode]]`billerCode`|`String`|-
+|[[billerName]]`billerName`|`String`|-
+|[[code]]`code`|`String`|-
+|[[execption]]`execption`|`String`|-
+|[[id]]`id`|`Number (long)`|-
+|[[message]]`message`|`String`|-
+|[[name]]`name`|`String`|-
+|[[processState]]`processState`|`link:dataobjects.html#ProcessState[ProcessState]`|-
+|[[success]]`success`|`Boolean`|-
+|[[transactionId]]`transactionId`|`String`|-
+|===
+
+[[Customer]]
+== Customer
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[age]]`age`|`Number (int)`|-
+|[[id]]`id`|`String`|-
+|[[name]]`name`|`String`|-
+|===
+
+[[InitialState]]
+== InitialState
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[bankAddress]]`bankAddress`|`String`|-
+|[[bankCode]]`bankCode`|`String`|-
+|[[bankId]]`bankId`|`String`|-
+|[[bankName]]`bankName`|`String`|-
+|[[billCode]]`billCode`|`String`|-
+|[[billName]]`billName`|`String`|-
+|[[billerAddress]]`billerAddress`|`String`|-
+|[[billerCode]]`billerCode`|`String`|-
+|[[billerName]]`billerName`|`String`|-
+|[[clientId]]`clientId`|`String`|-
+|[[id]]`id`|`Number (long)`|-
+|[[onServiceBy]]`onServiceBy`|`String`|-
+|===
+
+[[ProcessState]]
+== ProcessState
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[id]]`id`|`Number (Long)`|-
+|[[processDefinition]]`processDefinition`|`String`|-
+|[[processFlowId]]`processFlowId`|`String`|-
+|[[processFlowexecutionId]]`processFlowexecutionId`|`String`|-
+|[[processName]]`processName`|`String`|-
+|===
+
+[[WaitingState]]
+== WaitingState
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[bankCode]]`bankCode`|`String`|-
+|[[billCode]]`billCode`|`String`|-
+|[[billName]]`billName`|`String`|-
+|[[billerCode]]`billerCode`|`String`|-
+|[[billerName]]`billerName`|`String`|-
+|[[id]]`id`|`Number (long)`|-
+|[[period]]`period`|`String`|-
+|[[processState]]`processState`|`link:dataobjects.html#ProcessState[ProcessState]`|-
+|[[transactionId]]`transactionId`|`String`|-
+|[[waitingOpsName]]`waitingOpsName`|`String`|-
+|===
+

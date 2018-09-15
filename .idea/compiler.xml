@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flowing-retail-java-kafka-or-rabbit-spring-boot-camunda-checkout" />
+        <module name="flowing-retail-java-kafka-or-rabbit-spring-boot-camunda-inventory" />
+        <module name="flowing-retail-java-kafka-or-rabbit-spring-boot-camunda-monitor" />
+        <module name="flowing-retail-java-kafka-or-rabbit-spring-boot-camunda-order" />
+        <module name="flowing-retail-java-kafka-or-rabbit-spring-boot-camunda-payment" />
+        <module name="flowing-retail-java-kafka-or-rabbit-spring-boot-camunda-shipping" />
+        <module name="kafka-streams-examples" />
+        <module name="sample-api-versioning" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sample-api-versioning (1)" target="1.5" />
+      <module name="sample-api-versioning (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

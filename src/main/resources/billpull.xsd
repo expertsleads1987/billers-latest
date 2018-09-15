@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://localhost:3070/ws/billpull"
+        elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:tns="http://localhost:3070/ws/billpull">
+
+    <element name="BillPullResponse">
+        <complexType>
+            <sequence>
+
+                <element name="resCount" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billRec" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billingNo" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billNo" type="string" maxOccurs="1" minOccurs="1" />
+
+                <element name="result" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="errorCode" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="errorDesc" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="serverity" type="string" maxOccurs="1" minOccurs="1" />
+
+
+                <element name="accInfo" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billStatus" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="dueAmount" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="currency" type="string" maxOccurs="1" minOccurs="1" />
+
+
+                <element name="issueDate" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="openDate" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="dueDate" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="expiryDate" type="string" maxOccurs="1" minOccurs="1" />
+
+
+                <element name="closeDate" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="serviceType" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billType" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="pmtConst" type="string" maxOccurs="1" minOccurs="1" />
+
+
+                <element name="allowPart" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="lower" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="upper" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="subPmts" type="string" maxOccurs="1" minOccurs="1" />
+
+
+                <element name="subPmt" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="amount" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="bankCode" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="accNo" type="string" maxOccurs="1" minOccurs="1" />
+
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="BillPullRequest">
+        <complexType>
+            <sequence>
+
+                <element name="acctInfo" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billingNo" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="billNo" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="serviceType" type="string" maxOccurs="1" minOccurs="1" />
+
+                <element name="payerInfo" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="idType" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="id" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="nation" type="string" maxOccurs="1" minOccurs="1" />
+
+
+                <element name="name" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="phone" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="address" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="email" type="string" maxOccurs="1" minOccurs="1" />
+                <element name="joebppsno" type="string" maxOccurs="1" minOccurs="1" />
+
+            </sequence>
+        </complexType>
+    </element>
+</schema>
